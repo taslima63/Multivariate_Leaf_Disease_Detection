@@ -19,24 +19,48 @@ So that Farmers can ->
 * Ensure  quality and quantity of agricultural projects
 * Minimize agrochemical use
 
-<h2>Methodology</h2>
+Methodology
+---------------
 
-<h3>Pre-processing:</h3>
-    *Leaf Image extraction
-    *Background Removal
-    *Image Resize
-    *RGB to LAB color space
-    *Contrast Enhanced
+### Pre-processing: ###
+- Leaf Image extraction
+- Background Removal
+- Image Resize
+- RGB to LAB color space
+- Contrast Enhanced
     
-<h3>Segmentation: </h3>   
-    * Using K-means clustering Algorithm
+### Segmentation: ### 
+- Using K-means clustering Algorithm
     
-<h3>Feature Extraction: </h3> 
-    *GLCM(Gray level Co-occurrence matrix)
+### Feature Extraction: ### 
+- GLCM(Gray level Co-occurrence matrix)
     
-<h3>Classifier: </h3>     
-    *Multi-SVM classifier
+### Classifier: ### 
+- Multi-SVM classifier
     
+  
+Experiment Result:
+---------------  
+  
+  ### Training ###
+  
+  - Train 480 Imaage data
+  - 3 Crops Variation
+  - 80 Image of each 6 classes
+  
+ ### Testing ###
+ 
+ - Test 60 data
+ - 3 Crops Variation
+ - Total of 6 classes
+ 
+→ Correctly Identified 45 Data
+
+→ Incorrectly Identified 15 Data
+
+→ Accuracy 75%
+
+
 <object data="https://github.com/taslima63/Multivariate_Leaf_Disease_Detection/blob/master/Thesis-report-slide.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/taslima63/Multivariate_Leaf_Disease_Detection/blob/master/Thesis-report-slide.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/taslima63/Multivariate_Leaf_Disease_Detection/blob/master/Thesis-report-slide.pdf">Project Slideshow</a>.</p>
