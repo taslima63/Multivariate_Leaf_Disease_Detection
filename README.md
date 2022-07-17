@@ -15,3 +15,9 @@ So that Farmers can ->
 * Minimize production and economic loses
 * Ensure  quality and quantity of agricultural projects
 * Minimize agrochemical use
+
+<object data="https://github.com/taslima63/Multivariate_Leaf_Disease_Detection/blob/master/Thesis-report-slide.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/taslima63/Multivariate_Leaf_Disease_Detection/blob/master/Thesis-report-slide.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Project Slideshow</a>.</p>
+    </embed>
+</object>
